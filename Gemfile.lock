@@ -194,7 +194,7 @@ GEM
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
     json (2.9.1)
-    kamal (2.4.0)
+    kamal (2.5.3)
       activesupport (>= 7.0)
       base64 (~> 0.2)
       bcrypt_pbkdf (~> 1.0)
@@ -207,7 +207,7 @@ GEM
       zeitwerk (>= 2.6.18, < 3.0)
     language_server-protocol (3.17.0.4)
     local_time (3.0.2)
-    logger (1.6.5)
+    logger (1.6.6)
     loofah (2.24.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
@@ -419,8 +419,9 @@ GEM
       fugit (~> 1.11.0)
       railties (>= 7.1)
       thor (~> 1.3.1)
-    sshkit (1.23.2)
+    sshkit (1.24.0)
       base64
+      logger
       net-scp (>= 1.1.2)
       net-sftp (>= 2.1.2)
       net-ssh (>= 2.8.0)
@@ -453,7 +454,7 @@ GEM
     unicode-display_width (3.1.4)
       unicode-emoji (~> 4.0, >= 4.0.4)
     unicode-emoji (4.0.4)
-    uri (1.0.2)
+    uri (1.0.3)
     useragent (0.16.11)
     warden (1.2.9)
       rack (>= 2.0.9)
@@ -473,7 +474,7 @@ GEM
     websocket-extensions (0.1.5)
     xpath (3.2.0)
       nokogiri (~> 1.8)
-    zeitwerk (2.7.1)
+    zeitwerk (2.7.2)
 
 PLATFORMS
   aarch64-linux
@@ -593,10 +594,10 @@ CHECKSUMS
   jbuilder (2.13.0)
   json (2.9.1) sha256=d2bdef4644052fad91c1785d48263756fe32fcac08b96a20bb15840e96550d11
   jumpstart (0.1.0)
-  kamal (2.4.0) sha256=5f62f1858cc15c1506e55b60b075c89a1e7ef9c6bb0a7e3c01b54af190f85181
+  kamal (2.5.3) sha256=06f9e5536e710045da73cee5f0d8b088fd40d5613cbb36abcaa88d4c8fe23a6c
   language_server-protocol (3.17.0.4) sha256=c484626478664fd13482d8180947c50a8590484b1258b99b7aedb3b69df89669
   local_time (3.0.2) sha256=cb8abb2d56726ae285d00b0bd7f4c34bafc38c0c1cbc70ddc28f3a5661168d9d
-  logger (1.6.5) sha256=c3cfe56d01656490ddd103d38b8993d73d86296adebc5f58cefc9ec03741e56b
+  logger (1.6.6) sha256=dd618d24e637715472732e7eed02e33cfbdf56deaad225edd0f1f89d38024017
   loofah (2.24.0) sha256=61e6a710883abb8210887f3dc868cf3ed66594c509d9ff6987621efa6651ee1e
   madmin (2.0.0) sha256=4fccd83bf90983bfc3e817bb56be65071400281aaeab10bb0eb49a5f49b7dd97
   mail (2.8.1) sha256=ec3b9fadcf2b3755c78785cb17bc9a0ca9ee9857108a64b6f5cfc9c0b5bfc9ad
@@ -680,7 +681,7 @@ CHECKSUMS
   solid_cable (3.0.7) sha256=f2bce91e17e2c6e04c3c5e9905cc31b1078ff991702278c8bb1ac2e09f441a21
   solid_cache (1.0.6) sha256=fe1acf73fbe4a6a53620425317949082d3b99e0cfd35416106b56220fa66c311
   solid_queue (1.1.2) sha256=178c9396d1cf0dac595c7508da90ddb397d25848ca007b5c5ed48e6ac6fc360c
-  sshkit (1.23.2) sha256=76d7088fddeaf3ac37bad20e7121f7352367cae6bb0cdbc7d7354efc714d213b
+  sshkit (1.24.0) sha256=9597c1f984778ae9742f2dc839778d57a6a2efb868107046575c52ac7c628e6c
   stimulus-rails (1.3.4) sha256=765676ffa1f33af64ce026d26b48e8ffb2e0b94e0f50e9119e11d6107d67cb06
   stringio (3.1.2) sha256=204f1828f85cdb39d57cac4abc6dc44b04505a223f131587f2e20ae3729ba131
   tailwindcss-rails (4.0.0.rc4) sha256=83720932064dbaf802e133066bc70c148f86a0a55030375098a5bbf221cb3d3c
@@ -701,7 +702,7 @@ CHECKSUMS
   tzinfo (2.0.6) sha256=8daf828cc77bcf7d63b0e3bdb6caa47e2272dcfaf4fbfe46f8c3a9df087a829b
   unicode-display_width (3.1.4) sha256=8caf2af1c0f2f07ec89ef9e18c7d88c2790e217c482bfc78aaa65eadd5415ac1
   unicode-emoji (4.0.4) sha256=2c2c4ef7f353e5809497126285a50b23056cc6e61b64433764a35eff6c36532a
-  uri (1.0.2) sha256=b303504ceb7e5905771fa7fa14b649652fa949df18b5880d69cfb12494791e27
+  uri (1.0.3) sha256=e9f2244608eea2f7bc357d954c65c910ce0399ca5e18a7a29207ac22d8767011
   useragent (0.16.11) sha256=700e6413ad4bb954bb63547fa098dddf7b0ebe75b40cc6f93b8d54255b173844
   warden (1.2.9) sha256=46684f885d35a69dbb883deabf85a222c8e427a957804719e143005df7a1efd0
   web-console (4.2.1) sha256=e7bcf37a10ea2b4ec4281649d1cee461b32232d0a447e82c786e6841fd22fe20
@@ -710,7 +711,7 @@ CHECKSUMS
   websocket-driver (0.7.7) sha256=056d99f2cd545712cfb1291650fde7478e4f2661dc1db6a0fa3b966231a146b4
   websocket-extensions (0.1.5) sha256=1c6ba63092cda343eb53fc657110c71c754c56484aad42578495227d717a8241
   xpath (3.2.0) sha256=6dfda79d91bb3b949b947ecc5919f042ef2f399b904013eb3ef6d20dd3a4082e
-  zeitwerk (2.7.1) sha256=0945986050e4907140895378e74df1fe882a2271ed087cc6c6d6b00d415a2756
+  zeitwerk (2.7.2) sha256=842e067cb11eb923d747249badfb5fcdc9652d6f20a1f06453317920fdcd4673
 
 RUBY VERSION
    ruby 3.4.1p0
