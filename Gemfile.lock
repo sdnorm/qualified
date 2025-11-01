@@ -145,9 +145,9 @@ GEM
     devise-i18n (1.15.0)
       devise (>= 4.9.0)
       rails-i18n
-    dotenv (3.1.7)
+    dotenv (3.1.8)
     drb (2.2.3)
-    ed25519 (1.3.0)
+    ed25519 (1.4.0)
     erb (5.1.3)
     erb_lint (0.9.0)
       activesupport
@@ -196,13 +196,13 @@ GEM
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
     json (2.9.1)
-    kamal (2.4.0)
+    kamal (2.8.2)
       activesupport (>= 7.0)
       base64 (~> 0.2)
       bcrypt_pbkdf (~> 1.0)
       concurrent-ruby (~> 1.2)
       dotenv (~> 3.1)
-      ed25519 (~> 1.2)
+      ed25519 (~> 1.4)
       net-ssh (~> 7.3)
       sshkit (>= 1.23.0, < 2.0)
       thor (~> 1.3)
@@ -264,7 +264,7 @@ GEM
     noticed (2.6.0)
       rails (>= 6.1.0)
     orm_adapter (0.5.0)
-    ostruct (0.6.1)
+    ostruct (0.6.3)
     overcommit (0.65.0)
       childprocess (>= 0.6.3, < 6)
       iniparse (~> 1.4)
@@ -426,8 +426,9 @@ GEM
       fugit (~> 1.11)
       railties (>= 7.1)
       thor (>= 1.3.1)
-    sshkit (1.23.2)
+    sshkit (1.24.0)
       base64
+      logger
       net-scp (>= 1.1.2)
       net-sftp (>= 2.1.2)
       net-ssh (>= 2.8.0)
@@ -574,9 +575,9 @@ CHECKSUMS
   debug (1.10.0) sha256=11e28ca74875979e612444104f3972bd5ffb9e79179907d7ad46dba44bd2e7a4
   devise (4.9.3)
   devise-i18n (1.15.0) sha256=aff406e8a2941cd1d7614643b1619031a403b2855bb6057e391d1c7c273205cd
-  dotenv (3.1.7) sha256=c670df478675d23889e657beaca6fb423228f75ce9f052a0690c0d0daa333cf3
+  dotenv (3.1.8) sha256=9e1176060ced581f8e6ce4384e91361817763a76e3c625c8bddc18b35bd392c3
   drb (2.2.3) sha256=0b00d6fdb50995fe4a45dea13663493c841112e4068656854646f418fda13373
-  ed25519 (1.3.0) sha256=514a5584f84d39daac568a17ec93a4e7261e140c52c562ed8c382c18456e627d
+  ed25519 (1.4.0) sha256=16e97f5198689a154247169f3453ef4cfd3f7a47481fde0ae33206cdfdcac506
   erb (5.1.3) sha256=566e53057b6ba48699f824b578473b391fa8aef100aa14afad1c46725fae0e67
   erb_lint (0.9.0) sha256=dfb5e40ad839e8d1f0d56ca85ec9a7ac4c9cd966ec281138282f35b323ca7c31
   erubi (1.13.1) sha256=a082103b0885dbc5ecf1172fede897f9ebdb745a4b97a5e8dc63953db1ee4ad9
@@ -602,7 +603,7 @@ CHECKSUMS
   jbuilder (2.13.0)
   json (2.9.1) sha256=d2bdef4644052fad91c1785d48263756fe32fcac08b96a20bb15840e96550d11
   jumpstart (0.1.0)
-  kamal (2.4.0) sha256=5f62f1858cc15c1506e55b60b075c89a1e7ef9c6bb0a7e3c01b54af190f85181
+  kamal (2.8.2) sha256=5193d7a6be85c8eb7b0a27aa43ab49128f1500e9a818a730c5eb66d809a842c8
   language_server-protocol (3.17.0.4) sha256=c484626478664fd13482d8180947c50a8590484b1258b99b7aedb3b69df89669
   local_time (3.0.2) sha256=cb8abb2d56726ae285d00b0bd7f4c34bafc38c0c1cbc70ddc28f3a5661168d9d
   logger (1.7.0) sha256=196edec7cc44b66cfb40f9755ce11b392f21f7967696af15d274dde7edff0203
@@ -633,7 +634,7 @@ CHECKSUMS
   nokogiri (1.18.2-x86_64-linux-gnu) sha256=9330ced4a976604865c2a76ce158e2bc608fa83999552e85a32ec06f85f427db
   noticed (2.6.0) sha256=21d4aab5f56846811ae0478fbeca48e15ab4f967462cd359ad44df4d5fd602ed
   orm_adapter (0.5.0) sha256=aa5d0be5d540cbb46d3a93e88061f4ece6a25f6e97d6a47122beb84fe595e9b9
-  ostruct (0.6.1) sha256=09a3fb7ecc1fa4039f25418cc05ae9c82bd520472c5c6a6f515f03e4988cb817
+  ostruct (0.6.3) sha256=95a2ed4a4bd1d190784e666b47b2d3f078e4a9efda2fccf18f84ddc6538ed912
   overcommit (0.65.0) sha256=a9884811ec2ae159353d27f6275bb8458cb1d1e2741a79dcb9f4bed57f7ab05a
   pagy (9.3.3) sha256=4831418eb4ec7cc5658ea57de559cc3a960286db36f98d4c1c65e19db0e2bb60
   parallel (1.26.3) sha256=d86babb7a2b814be9f4b81587bf0b6ce2da7d45969fab24d8ae4bf2bb4d4c7ef
@@ -690,7 +691,7 @@ CHECKSUMS
   solid_cable (3.0.7) sha256=f2bce91e17e2c6e04c3c5e9905cc31b1078ff991702278c8bb1ac2e09f441a21
   solid_cache (1.0.6) sha256=fe1acf73fbe4a6a53620425317949082d3b99e0cfd35416106b56220fa66c311
   solid_queue (1.2.4) sha256=bb60f9552a969ac377d87601b0ff6a088f5e6f20b0cbbe3844a59d022cac0e4b
-  sshkit (1.23.2) sha256=76d7088fddeaf3ac37bad20e7121f7352367cae6bb0cdbc7d7354efc714d213b
+  sshkit (1.24.0) sha256=9597c1f984778ae9742f2dc839778d57a6a2efb868107046575c52ac7c628e6c
   stimulus-rails (1.3.4) sha256=765676ffa1f33af64ce026d26b48e8ffb2e0b94e0f50e9119e11d6107d67cb06
   stringio (3.1.7) sha256=5b78b7cb242a315fb4fca61a8255d62ec438f58da2b90be66048546ade4507fa
   tailwindcss-rails (4.0.0.rc4) sha256=83720932064dbaf802e133066bc70c148f86a0a55030375098a5bbf221cb3d3c
