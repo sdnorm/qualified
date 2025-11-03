@@ -289,8 +289,8 @@ GEM
     prefixed_ids (1.8.1)
       hashids (>= 1.0.0, < 2.0.0)
       rails (>= 6.0.0)
-    pretender (0.5.0)
-      actionpack (>= 6.1)
+    pretender (0.6.0)
+      actionpack (>= 7.1)
     prettyprint (0.2.0)
     propshaft (1.1.0)
       actionpack (>= 7.0.0)
@@ -307,7 +307,7 @@ GEM
       activesupport (>= 3.0.0)
     raabro (1.4.0)
     racc (1.8.1)
-    rack (3.2.3)
+    rack (3.2.4)
     rack-session (2.1.1)
       base64 (>= 0.1.0)
       rack (>= 3.0.0)
@@ -518,7 +518,7 @@ DEPENDENCIES
   pay (~> 8.0)
   pg
   prefixed_ids (~> 1.2)
-  pretender (~> 0.4)
+  pretender (~> 0.6)
   propshaft (~> 1.0)
   puma (~> 6.6)
   pundit (~> 2.1)
@@ -646,7 +646,7 @@ CHECKSUMS
   prawn (2.5.0) sha256=f4e20e3b4f30bf5b9ae37dad15eb421831594553aa930b2391b0fa0a99c43cb6
   prawn-table (0.2.2) sha256=336d46e39e003f77bf973337a958af6a68300b941c85cb22288872dc2b36addb
   prefixed_ids (1.8.1) sha256=cc327f946a6fc6a610246aa957d6c3b170bfaa1170c8deb445fa466356a6adbb
-  pretender (0.5.0) sha256=02120f25bc1c2b98468e136cec9e841360935dcc291158195b0cd073ff8fad77
+  pretender (0.6.0) sha256=d4528df42dd0dc5424b5d077a23435341d31ddee09bc54c8301691f55afda63d
   prettyprint (0.2.0) sha256=2bc9e15581a94742064a3cc8b0fb9d45aae3d03a1baa6ef80922627a0766f193
   propshaft (1.1.0) sha256=d389361faf66aeb17e8d204828962c1e506edd14a1a17adb3fa475435c070f6b
   psych (5.2.6) sha256=814328aa5dcb6d604d32126a20bc1cbcf05521a5b49dbb1a8b30a07e580f316e
@@ -655,7 +655,7 @@ CHECKSUMS
   pundit (2.4.0) sha256=43e6d27a9df082c04f0020999ce4dcf6742ecc5775d102ef2bfe9df041417572
   raabro (1.4.0) sha256=d4fa9ff5172391edb92b242eed8be802d1934b1464061ae5e70d80962c5da882
   racc (1.8.1) sha256=4a7f6929691dbec8b5209a0b373bc2614882b55fc5d2e447a21aaa691303d62f
-  rack (3.2.3) sha256=239a373da6584574f25f042d8ed4ba21e691c9799f1d2b5c8920bbbc23ca3d41
+  rack (3.2.4) sha256=5d74b6f75082a643f43c1e76b419c40f0e5527fcfee1e669ac1e6b73c0ccb6f6
   rack-session (2.1.1) sha256=0b6dc07dea7e4b583f58a48e8b806d4c9f1c6c9214ebc202ec94562cbea2e4e9
   rack-test (2.2.0) sha256=005a36692c306ac0b4a9350355ee080fd09ddef1148a5f8b2ac636c720f5c463
   rackup (2.2.1) sha256=f737191fd5c5b348b7f0a4412a3b86383f88c43e13b8217b63d4c8d90b9e798d
